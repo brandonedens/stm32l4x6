@@ -1,3 +1,4 @@
 target
 Cargo.lock
 *.bk
+/STM32L4x6.svd
