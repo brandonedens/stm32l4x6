@@ -1,0 +1,6 @@
+[package]
+name = "stm32l4x6-memory-map"
+version = "0.1.0"
+authors = ["Brandon Edens <brandonedens@gmail.com>"]
+
+[dependencies]
