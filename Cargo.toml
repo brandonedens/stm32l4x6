@@ -6,7 +6,8 @@ keywords = ["arm", "cortex-m", "stm32", "stm32l4"]
 license = "MIT OR Apache-2.0"
 name = "stm32l4x6-memory-map"
 repository = "https://github.com/brandonedens/stm32l4x6-memory-map"
-version = "0.1.0"
+version = "0.2.0"
 
 [dependencies]
-volatile-register = "0.1.2"
+cortex-m = "0.2.4"
+vcell = "0.1.0"
