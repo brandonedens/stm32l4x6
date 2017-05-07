@@ -1,9 +1,9 @@
 
-# `stm32l4x6-memory-map`
+# `stm32l4x6`
 
 > Memory map for STM32L4x6 microcontrollers
 
-## [Documentation](https://docs.rs/stm32l4x6-memory-map)
+## [Documentation](https://docs.rs/stm32l4x6)
 
 ## License
 
@@ -20,3 +20,8 @@ at your option.
 Unless you explicitly state otherwise, any contribution intentionally submitted
 for inclusion in the work by you, as defined in the Apache-2.0 license, shall
 be dual licensed as above, without any additional terms or conditions.
+
+## Thanks
+
+This crate is made possible by Jorge Aparicio and all of the others that have
+contributed to svd2rust.
