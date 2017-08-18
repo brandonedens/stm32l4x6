@@ -1,12 +1,22 @@
 [package]
 authors = ["Brandon Edens <brandonedens@gmail.com>"]
+categories = ["embedded", "hardware-support", "no-std"]
 description = "Memory map for STM32L4x6 microcontrollers"
-keywords = ["arm", "cortex-m", "stm32", "stm32l4"]
+documentation = "https://docs.rs/stm32l4x6"
+keywords = ["arm", "cortex-m", "stm32", "stm32l4", "svd2rust"]
 license = "MIT OR Apache-2.0"
 name = "stm32l4x6"
 repository = "https://github.com/brandonedens/stm32l4x6"
-version = "0.3.0"
+version = "0.4.0"
 
 [dependencies]
-cortex-m = "0.2.4"
+bare-metal = "0.1.0"
+cortex-m = "0.4.0"
 vcell = "0.1.0"
+
+[dependencies.cortex-m-rt]
+optional = true
+version = "0.3.0"
+
+[features]
+rt = ["cortex-m-rt"]
