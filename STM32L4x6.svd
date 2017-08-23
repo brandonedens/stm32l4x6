@@ -3,6 +3,16 @@
 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xs:noNamespaceSchemaLocation="CMSIS-SVD_Schema_1_1.xsd">
   <name>STM32L4x6</name>
+  <cpu>
+	<name>CM4</name>
+	<revision>r0p1</revision>
+	<endian>little</endian>
+	<fpuPresent>true</fpuPresent>
+	<mpuPresent>true</mpuPresent>
+	<vtorPresent>true</vtorPresent>
+	<nvicPrioBits>4</nvicPrioBits>
+	<vendorSystickConfig>false</vendorSystickConfig>
+  </cpu>
   <version>1.0</version>
   <description>STM32L4x6</description>
   <!--Bus Interface Properties-->
