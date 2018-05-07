@@ -10,13 +10,13 @@ repository = "https://github.com/brandonedens/stm32l4x6"
 version = "0.4.0"
 
 [dependencies]
-bare-metal = "0.1.0"
-cortex-m = "0.4.0"
-vcell = "0.1.0"
+bare-metal = "0.2"
+cortex-m = "0.5"
+vcell = "0.1"
 
 [dependencies.cortex-m-rt]
 optional = true
-version = "0.3.0"
+version = "0.5"
 
 [features]
-rt = ["cortex-m-rt"]
+rt = ["cortex-m-rt/device"]
