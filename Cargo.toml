@@ -7,7 +7,7 @@ keywords = ["arm", "cortex-m", "stm32", "stm32l4", "svd2rust"]
 license = "MIT OR Apache-2.0"
 name = "stm32l4x6"
 repository = "https://github.com/brandonedens/stm32l4x6"
-version = "0.5.1"
+version = "0.6.0"
 
 [dependencies]
 bare-metal = "0.2.0"
